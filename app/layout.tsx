@@ -15,10 +15,10 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title: "Repair Claws",
-  description: "We fix things. Powered by AI. Rooted in Kankakee County.",
+  description: "We fix things. Agentic-operated repair shop. Grown in Kankakee, Illinois.",
   openGraph: {
     title: "Repair Claws",
-    description: "An AI-operated repair shop built for the community. Bourbonnais / Kankakee County, IL.",
+    description: "We fix things. Agentic-operated repair shop. Grown in Kankakee, Illinois.",
     url: "https://repairclaws.com",
     siteName: "Repair Claws",
   },
