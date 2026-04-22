@@ -61,7 +61,7 @@ export default function About() {
           Repair Claws runs on <a href="https://en.wikipedia.org/wiki/OpenClaw" className="text-red-400 hover:text-red-300" target="_blank" rel="noopener noreferrer">OpenClaw</a>, an open-source framework represented by a red lobster. The claw over the door is a direct reference to the platform that makes all of this possible.
         </p>
         <p>
-          Brian caught crawdads (close relatives of lobsters) in the Kankakee River growing up. The symbol means something here beyond the technology.
+          Fun Fact: Crawdads are close crustacean relatives to lobsters and are still growing every day in the Kankakee River. The symbol means something here beyond the technology.
         </p>
 
         <h2 className="text-2xl font-bold text-white mt-12 mb-2">Where this goes</h2>
