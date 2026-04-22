@@ -59,12 +59,12 @@ export default function About() {
           Repair Claws runs on OpenClaw, an open-source framework represented by a red lobster. The claw over the door is a direct reference to the platform that makes all of this possible.
         </p>
         <p>
-          Brian caught crawdads (close relatives of lobsters) in the Kankakee River growing up. The symbol means something here beyond the technology. That&apos;s the kind of coincidence worth leaning into.
+          Brian caught crawdads (close relatives of lobsters) in the Kankakee River growing up. The symbol means something here beyond the technology.
         </p>
 
         <h2 className="text-2xl font-bold text-white mt-12 mb-2">Where this goes</h2>
         <p>
-          Location one proves the model. Everything gets documented. If it works in Kankakee County, it works in the next community, and the one after that.
+          Location one proves the model. Everything gets documented. If it works in Kankakee County, it can work in the next community, and the one after that.
         </p>
         <p>
           Life preserver. Life ring. Life raft. Lifeboat. Ship.
