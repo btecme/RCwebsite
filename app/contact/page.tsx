@@ -1,19 +1,47 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect, useRef } from "react";
 
 export default function Contact() {
   const [form, setForm] = useState({ name: "", email: "", type: "", message: "" });
   const [status, setStatus] = useState<"idle" | "sending" | "sent" | "error">("idle");
+  const turnstileRef = useRef<HTMLDivElement>(null);
+  const turnstileWidgetId = useRef<string | null>(null);
+  const siteKey = process.env.NEXT_PUBLIC_TURNSTILE_SITE_KEY;
+
+  useEffect(() => {
+    if (!siteKey || !turnstileRef.current) return;
+    const script = document.createElement("script");
+    script.src = "https://challenges.cloudflare.com/turnstile/v0/api.js";
+    script.async = true;
+    script.onload = () => {
+      if (window.turnstile && turnstileRef.current) {
+        turnstileWidgetId.current = window.turnstile.render(turnstileRef.current, {
+          sitekey: siteKey,
+          size: "invisible",
+        });
+      }
+    };
+    document.head.appendChild(script);
+    return () => { document.head.removeChild(script); };
+  }, [siteKey]);
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setStatus("sending");
+    let turnstileToken = "";
+    if (siteKey && window.turnstile && turnstileWidgetId.current) {
+      turnstileToken = window.turnstile.getResponse(turnstileWidgetId.current) || "";
+      if (!turnstileToken) {
+        await window.turnstile.execute(turnstileWidgetId.current);
+        turnstileToken = window.turnstile.getResponse(turnstileWidgetId.current) || "";
+      }
+    }
     try {
       const res = await fetch("/api/contact", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
-        body: JSON.stringify(form),
+        body: JSON.stringify({ ...form, turnstileToken }),
       });
       if (res.ok) {
         setStatus("sent");
@@ -110,6 +138,7 @@ export default function Contact() {
             {status === "sending" ? "Sending..." : "Send message"}
           </button>
 
+          <div ref={turnstileRef} />
           <p className="text-zinc-600 text-xs text-center">
             Protected against spam. Your info is used only to respond to your message.
           </p>
