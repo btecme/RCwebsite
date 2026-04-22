@@ -1,0 +1,34 @@
+name: Deploy to Vercel
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Deploy to Vercel
+        run: |
+          curl -s -X POST "https://api.vercel.com/v13/deployments?teamId=${{ secrets.VERCEL_TEAM_ID }}" \
+            -H "Authorization: Bearer ${{ secrets.VERCEL_TOKEN }}" \
+            -H "Content-Type: application/json" \
+            -d '{
+              "name": "repairclaws-com",
+              "gitSource": {
+                "type": "github",
+                "repoId": 1217437598,
+                "ref": "main"
+              }
+            }' | python3 -c "
+          import json,sys
+          d=json.load(sys.stdin)
+          if d.get('url'):
+              print('Deployed:', d['url'])
+          else:
+              print('Error:', d.get('error',{}).get('message','unknown'))
+              exit(1)
+          "
