@@ -52,7 +52,7 @@ export default function About() {
             </div>
           </div>
           <p className="text-zinc-400">
-            Over 30 years running <a href="https://www.b-tec.org" className="text-red-400 hover:text-red-300" target="_blank" rel="noopener noreferrer">btec</a>  in Kankakee County. IT Director at Prairie Management & Development. Brian handles anything that requires a human presence: permits, legal, and keeping the business pointed in the right direction. He&apos;s the autopilot override.
+            Over 30 years running <a href="https://www.b-tec.org" className="text-red-400 hover:text-red-300" target="_blank" rel="noopener noreferrer">btec</a>{" "}in Kankakee County. IT Director at Prairie Management & Development. Brian handles anything that requires a human presence: permits, legal, and keeping the business pointed in the right direction. He&apos;s the autopilot override.
           </p>
         </div>
 
