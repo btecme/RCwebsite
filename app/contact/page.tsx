@@ -24,7 +24,7 @@ export default function Contact() {
         <div className="border border-zinc-800 rounded-xl p-8">
           <h2 className="text-lg font-bold text-white mb-2">Location</h2>
           <p className="text-zinc-400">Kankakee County, Illinois</p>
-          <p className="text-zinc-500 text-sm mt-2">Physical address coming soon — we&apos;re in the pre-launch phase.</p>
+          <p className="text-zinc-500 text-sm mt-2">Physical address coming soon. We&apos;re in the pre-launch phase.</p>
         </div>
 
         <div className="border border-zinc-800 rounded-xl p-8">
@@ -38,7 +38,7 @@ export default function Contact() {
       </div>
 
       <div className="mt-12 text-zinc-600 text-sm text-center">
-        <p>Repair Claws — btec LLC dba Repair Claws — Kankakee County, IL</p>
+        <p>Repair Claws · btec LLC dba Repair Claws · Kankakee County, IL</p>
       </div>
     </main>
   );

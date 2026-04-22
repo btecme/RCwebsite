@@ -15,7 +15,7 @@ export default function Invest() {
           <div className="space-y-3">
             {[
               { label: "Entity", value: "btec LLC dba Repair Claws (Illinois)" },
-              { label: "Stage", value: "Pre-launch — planning and funding phase" },
+              { label: "Stage", value: "Pre-launch: planning and funding phase" },
               { label: "Target raise", value: "$140,000 (Year 1 operations)" },
               { label: "Timeline", value: "2026 launch, Kankakee County IL" },
               { label: "Operating model", value: "Digital intelligence CEO with human technicians and oversight" },
@@ -58,7 +58,7 @@ export default function Invest() {
               Repair Claws takes that model and applies it to a community with genuine need, lower competition, and a founder with 30 years of local credibility. Andon Labs proved it works in San Francisco. We&apos;re proving it works everywhere else.
             </p>
             <p>
-              The infrastructure behind this — OpenClaw, Cloudflare&apos;s agent routing, Stripe&apos;s agent toolkit, Vercel&apos;s platform — is being built right now. Ground floor of something structural.
+              The infrastructure behind this (OpenClaw, Cloudflare&apos;s agent routing, Stripe&apos;s agent toolkit, Vercel&apos;s platform) is being built right now. Ground floor of something structural.
             </p>
           </div>
         </div>
@@ -66,7 +66,7 @@ export default function Invest() {
         <div className="border border-zinc-800 rounded-xl p-8">
           <h2 className="text-xl font-bold text-white mb-4">The job creation angle</h2>
           <p className="text-zinc-400 leading-relaxed mb-4">
-            Digital intelligence runs the CEO role here. The technicians, the students from Olivet and KCC, the local hires — those are the jobs with people in them.
+            Digital intelligence runs the CEO role here. The technicians, the students from Olivet and KCC, the local hires are the jobs with people in them.
           </p>
           <p className="text-zinc-400 leading-relaxed">
             Repair Claws creates work that didn&apos;t exist before in this community. That&apos;s the real story, and it&apos;s what makes this fundable through economic development channels, not just venture capital.

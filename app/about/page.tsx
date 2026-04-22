@@ -50,7 +50,7 @@ export default function About() {
             </div>
           </div>
           <p className="text-zinc-400">
-            30 years running btec in Kankakee County. IT Director at Prairie Management & Development. Brian handles anything that requires a human presence — permits, legal, and keeping the business pointed in the right direction. He&apos;s the autopilot override.
+            30 years running btec in Kankakee County. IT Director at Prairie Management & Development. Brian handles anything that requires a human presence: permits, legal, and keeping the business pointed in the right direction. He&apos;s the autopilot override.
           </p>
         </div>
 

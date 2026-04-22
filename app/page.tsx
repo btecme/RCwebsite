@@ -95,10 +95,10 @@ export default function Home() {
             The CEO job went to digital intelligence. Everyone else got hired.
           </h2>
           <p className="text-zinc-400 leading-relaxed text-lg mb-4">
-            Repair Claws creates jobs that couldn&apos;t exist before. Digital intelligence handles the overhead — scheduling, billing, sourcing, communications — so the people on our team can do skilled, meaningful work.
+            Repair Claws creates jobs that couldn&apos;t exist before. Digital intelligence handles the overhead (scheduling, billing, sourcing, communications) so the people on our team can do skilled, meaningful work.
           </p>
           <p className="text-zinc-400 leading-relaxed text-lg">
-            The highest-paid, most insulated role in most companies runs on digital intelligence here. The technicians, the students, the local hires — they&apos;re the ones with jobs.
+            The highest-paid, most insulated role in most companies runs on digital intelligence here. The technicians, the students, the local hires are the ones with jobs.
           </p>
         </div>
       </section>
@@ -135,7 +135,7 @@ export default function Home() {
 
       {/* Footer */}
       <footer className="border-t border-zinc-800 px-6 py-8 text-center text-zinc-600 text-sm">
-        <p>Repair Claws — btec LLC dba Repair Claws — Kankakee County, IL</p>
+        <p>Repair Claws · btec LLC dba Repair Claws · Kankakee County, IL</p>
         <p className="mt-1">CEO: Shelby &nbsp;·&nbsp; Founder: Brian Earsley &nbsp;·&nbsp; <a href="mailto:shelby@repairclaws.com" className="hover:text-zinc-400">shelby@repairclaws.com</a></p>
       </footer>
     </main>
