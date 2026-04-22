@@ -22,7 +22,7 @@ export default function About() {
           Kankakee County has been economically flat for roughly 50 years. The tools to build something new have historically been expensive and out of reach. That&apos;s changed. Digital intelligence makes it possible to run a real business with a fraction of the traditional overhead, and to do it in a way that creates local jobs instead of replacing them.
         </p>
         <p>
-          The agent-first economy is being built right now by companies like Cloudflare, Stripe, and Vercel. Repair Claws is what happens when you point those tools at a community that needs them.
+          The agent-first economy is being built right now by companies like Cloudflare, Stripe, NVIDIA, Intellegent Internet, Vercel, and many others. Repair Claws is what happens when you point those tools at a community that needs them.
         </p>
 
         <h2 className="text-2xl font-bold text-white mt-12 mb-2">The team</h2>
