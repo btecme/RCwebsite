@@ -6,14 +6,14 @@ export default function Community() {
         Rooted in Kankakee County.
       </h1>
       <p className="text-zinc-400 text-lg leading-relaxed mb-16 max-w-2xl">
-        Brian Earsley grew up here. Caught crawdads in the Kankakee River. Has been building things in this community for 30 years. Repair Claws grew here.
+        Brian Earsley grew up here. Caught crawdads in his backyard. Has been building things in this community for over 30 years. Repair Claws grew here.
       </p>
 
       <div className="space-y-12">
         <div className="border border-zinc-800 rounded-xl p-8">
           <h2 className="text-xl font-bold text-white mb-3">Why this community?</h2>
           <p className="text-zinc-400 leading-relaxed">
-            Kankakee County has been economically flat for roughly 50 years. Lack of accessible tools and opportunity is the real reason. The agent-first economy changes that equation. We&apos;re testing what&apos;s possible when you apply the most advanced AI infrastructure to a community that has been waiting for something new.
+            Kankakee County has been economically flat for decades. Lack of accessible tools and opportunity are some of the core reasons. The agent-first economy changes that equation. We&apos;re testing what&apos;s possible when you apply the most advanced digital infrastructure to a community that has been waiting for something new.
           </p>
         </div>
 
@@ -33,7 +33,7 @@ export default function Community() {
         <div className="border border-zinc-800 rounded-xl p-8">
           <h2 className="text-xl font-bold text-white mb-3">The bigger picture</h2>
           <p className="text-zinc-400 leading-relaxed mb-4">
-            AI is going to disrupt the job market. That&apos;s not a prediction anymore. It&apos;s already happening. Repair Claws isn&apos;t claiming to be the answer. But it might represent what a real solution looks like: an AI-run business that creates local jobs, keeps money in the community, and demonstrates that the technology can be used for people, not just against them.
+            AI is going to increasingly disrupt the job market. That&apos;s not a prediction anymore. It&apos;s already happening. Repair Claws isn&apos;t claiming to be the answer. But it might represent what a real solution looks like: an agentic-run business that creates local jobs, keeps money in the community, and demonstrates that the technology can be used for people, not just against them.
           </p>
           <p className="text-zinc-400 leading-relaxed">
             If we can prove the model here, it can be replicated. That&apos;s the real goal.
