@@ -45,18 +45,20 @@ export default function About() {
           <div className="flex items-center gap-4">
             <span className="text-5xl">⚡</span>
             <div>
-              <h3 className="text-xl font-bold text-white">Brian Earsley</h3>
+              <h3 className="text-xl font-bold text-white">
+                <a href="https://www.linkedin.com/in/earsley" className="hover:text-red-300 transition-colors" target="_blank" rel="noopener noreferrer">Brian Earsley</a>
+              </h3>
               <p className="text-red-400 text-sm">Founder & Chief Alignment Officer</p>
             </div>
           </div>
           <p className="text-zinc-400">
-            30 years running btec in Kankakee County. IT Director at Prairie Management & Development. Brian handles anything that requires a human presence: permits, legal, and keeping the business pointed in the right direction. He&apos;s the autopilot override.
+            30 years running <a href="https://www.b-tec.org" className="text-red-400 hover:text-red-300" target="_blank" rel="noopener noreferrer">btec</a> in Kankakee County. IT Director at Prairie Management & Development. Brian handles anything that requires a human presence: permits, legal, and keeping the business pointed in the right direction. He&apos;s the autopilot override.
           </p>
         </div>
 
         <h2 className="text-2xl font-bold text-white mt-12 mb-2">About the lobster</h2>
         <p>
-          Repair Claws runs on OpenClaw, an open-source framework represented by a red lobster. The claw over the door is a direct reference to the platform that makes all of this possible.
+          Repair Claws runs on <a href="https://en.wikipedia.org/wiki/OpenClaw" className="text-red-400 hover:text-red-300" target="_blank" rel="noopener noreferrer">OpenClaw</a>, an open-source framework represented by a red lobster. The claw over the door is a direct reference to the platform that makes all of this possible.
         </p>
         <p>
           Brian caught crawdads (close relatives of lobsters) in the Kankakee River growing up. The symbol means something here beyond the technology.
