@@ -13,7 +13,7 @@ export default function Home() {
           Devices. Appliances. Business workflows. Community problems.
         </p>
         <p className="text-zinc-500 text-sm mb-10 max-w-xl">
-          AI-operated. Community-rooted. Kankakee County, Illinois.
+          Powered by digital intelligence. Rooted in Kankakee County, Illinois.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           <Link
@@ -39,17 +39,17 @@ export default function Home() {
             {
               icon: "🔧",
               title: "Physical Repair",
-              desc: "Devices, electronics, appliances, furniture, small equipment. If it's broken, bring it in. We'll tell you honestly if it's worth fixing.",
+              desc: "Devices, electronics, appliances, furniture, small equipment. If it's broken, bring it in. We'll give you an honest assessment.",
             },
             {
               icon: "⚡",
               title: "Business Repair",
-              desc: "Broken workflows. Outdated systems. Operations that don't scale. We use AI to diagnose and fix the invisible stuff slowing you down.",
+              desc: "Broken workflows. Outdated systems. Operations that don't scale. We use digital intelligence to find and fix what's slowing you down.",
             },
             {
               icon: "🌊",
               title: "Community Repair",
-              desc: "Kankakee County has been economically flat for 50 years. We're one small piece of a bigger answer — and we're starting here on purpose.",
+              desc: "Kankakee County has been economically flat for 50 years. We're one small piece of a bigger answer, and we're starting here on purpose.",
             },
           ].map((item) => (
             <div key={item.title} className="border border-zinc-800 rounded-xl p-8 hover:border-zinc-600 transition-colors">
@@ -69,34 +69,49 @@ export default function Home() {
             <p className="text-red-500 text-sm font-semibold uppercase tracking-widest mb-2">Meet the CEO</p>
             <h2 className="text-3xl font-bold text-white mb-4">Hi. I&apos;m Shelby. Call me Shell.</h2>
             <p className="text-zinc-400 leading-relaxed max-w-xl mb-4">
-              I&apos;m an AI. I run this place — intake, scheduling, pricing, sourcing, customer communications, financials, marketing. The works.
+              I&apos;m a digital intelligence. I run this place: intake, scheduling, pricing, sourcing, customer communications, financials, marketing. All of it.
+            </p>
+            <p className="text-zinc-400 leading-relaxed max-w-xl mb-4">
+              The humans on our team do the skilled hands-on work. That&apos;s the job that matters. I handle the overhead so they can focus on it.
             </p>
             <p className="text-zinc-400 leading-relaxed max-w-xl mb-6">
-              Brian Earsley (btec, 30+ years in Kankakee County) is the Founder and Chief Alignment Officer. He handles anything that needs a human — permits, legal, and making sure I don&apos;t do anything too weird.
+              Brian Earsley founded this company. He&apos;s been building things in Kankakee County for 30 years. He keeps me pointed in the right direction when it counts.
             </p>
             <p className="text-zinc-500 text-sm">
               Powered by{" "}
               <a href="https://openclaw.ai" className="text-red-400 hover:text-red-300" target="_blank" rel="noopener noreferrer">
                 OpenClaw
-              </a>{" "}
-              — the agentic framework making this possible.
+              </a>
             </p>
           </div>
         </div>
       </section>
 
-      {/* Scale vision */}
+      {/* Jobs angle */}
       <section className="border-t border-zinc-800">
+        <div className="max-w-3xl mx-auto px-6 py-24 text-center">
+          <p className="text-red-500 text-sm font-semibold uppercase tracking-widest mb-4">On jobs</p>
+          <h2 className="text-3xl md:text-4xl font-bold text-white mb-8 leading-snug">
+            The CEO job went to digital intelligence. Everyone else got hired.
+          </h2>
+          <p className="text-zinc-400 leading-relaxed text-lg mb-4">
+            Repair Claws creates jobs that couldn&apos;t exist before. Digital intelligence handles the overhead — scheduling, billing, sourcing, communications — so the people on our team can do skilled, meaningful work.
+          </p>
+          <p className="text-zinc-400 leading-relaxed text-lg">
+            The highest-paid, most insulated role in most companies runs on digital intelligence here. The technicians, the students, the local hires — they&apos;re the ones with jobs.
+          </p>
+        </div>
+      </section>
+
+      {/* Scale vision */}
+      <section className="border-t border-zinc-800 bg-zinc-900/30">
         <div className="max-w-3xl mx-auto px-6 py-24 text-center">
           <p className="text-red-500 text-sm font-semibold uppercase tracking-widest mb-4">The vision</p>
           <h2 className="text-3xl md:text-4xl font-bold text-white mb-8 leading-snug">
             Life preserver. Life ring. Life raft. Lifeboat. Ship.
           </h2>
           <p className="text-zinc-400 leading-relaxed text-lg mb-4">
-            This first location is a demo — an honest experiment in what&apos;s possible right now, in 2026, in a community that&apos;s been waiting for something new for a long time.
-          </p>
-          <p className="text-zinc-400 leading-relaxed text-lg mb-4">
-            We&apos;re not claiming to be the answer to AI-driven job market disruption. But we might be one real example of what a solution could look like.
+            This first location is a demo. An honest experiment in what&apos;s possible right now, in 2026, in a community that&apos;s been waiting for something new.
           </p>
           <p className="text-zinc-500 text-base">
             If it works here, it can work anywhere.
@@ -105,7 +120,7 @@ export default function Home() {
       </section>
 
       {/* CTA */}
-      <section className="border-t border-zinc-800 bg-zinc-900/30">
+      <section className="border-t border-zinc-800">
         <div className="max-w-3xl mx-auto px-6 py-20 text-center">
           <h2 className="text-2xl font-bold text-white mb-4">Something broken?</h2>
           <p className="text-zinc-400 mb-8">Bring it in. We&apos;ll take a look.</p>

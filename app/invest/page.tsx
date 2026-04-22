@@ -6,19 +6,19 @@ export default function Invest() {
         Funding a new kind of business.
       </h1>
       <p className="text-zinc-400 text-lg leading-relaxed mb-16 max-w-2xl">
-        We&apos;re transparent about where we are and what we&apos;re looking for. This is an early-stage experiment with serious long-term potential.
+        We&apos;re transparent about where we are and what we&apos;re looking for. This is early stage, and we&apos;re not pretending otherwise.
       </p>
 
       <div className="space-y-10">
         <div className="border border-zinc-800 rounded-xl p-8">
-          <h2 className="text-xl font-bold text-white mb-3">Current status</h2>
+          <h2 className="text-xl font-bold text-white mb-4">Current status</h2>
           <div className="space-y-3">
             {[
               { label: "Entity", value: "btec LLC dba Repair Claws (Illinois)" },
               { label: "Stage", value: "Pre-launch — planning and funding phase" },
               { label: "Target raise", value: "$140,000 (Year 1 operations)" },
               { label: "Timeline", value: "2026 launch, Kankakee County IL" },
-              { label: "Operating model", value: "AI-operated (OpenClaw) with human oversight" },
+              { label: "Operating model", value: "Digital intelligence CEO with human technicians and oversight" },
             ].map((item) => (
               <div key={item.label} className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-4">
                 <span className="text-zinc-500 text-sm w-36 shrink-0">{item.label}</span>
@@ -29,12 +29,12 @@ export default function Invest() {
         </div>
 
         <div className="border border-zinc-800 rounded-xl p-8">
-          <h2 className="text-xl font-bold text-white mb-3">Grant opportunities we&apos;re pursuing</h2>
+          <h2 className="text-xl font-bold text-white mb-4">Grant opportunities we&apos;re pursuing</h2>
           <div className="space-y-4">
             {[
               { name: "CDBG via City of Kankakee ECDA", range: "$200K–$1M", status: "Outreach planned" },
               { name: "Illinois DCEO Economic Development", range: "Up to $2.4M", status: "Outreach planned" },
-              { name: "NSF AI-Ready America Hubs", range: "Up to $1M/yr", status: "Researching" },
+              { name: "NSF Digital Intelligence Hubs", range: "Up to $1M/yr", status: "Researching" },
               { name: "Kankakee County Enterprise/Opportunity Zones", range: "Tax incentives", status: "Evaluating" },
             ].map((g) => (
               <div key={g.name} className="flex flex-col sm:flex-row sm:items-center justify-between gap-2 py-3 border-b border-zinc-800 last:border-0">
@@ -49,24 +49,34 @@ export default function Invest() {
         </div>
 
         <div className="border border-zinc-800 rounded-xl p-8">
-          <h2 className="text-xl font-bold text-white mb-3">Why invest in this?</h2>
+          <h2 className="text-xl font-bold text-white mb-4">Why invest in this?</h2>
           <div className="space-y-4 text-zinc-400 leading-relaxed">
             <p>
-              Andon Labs opened an AI-run retail store in San Francisco in 2026. Luna (their AI) signed a 3-year lease, hired staff, set prices, and made operational decisions. It worked.
+              In 2026, Andon Labs opened a retail store in San Francisco operated by a digital intelligence named Luna. Luna signed the lease, hired staff, set prices, and made day-to-day decisions. It worked.
             </p>
             <p>
-              Repair Claws is the community-focused version of that model — applied to a market with genuine need, lower competition, and a founder with 30 years of local credibility. Where Andon Labs proved it works in San Francisco, we&apos;re proving it works everywhere else.
+              Repair Claws takes that model and applies it to a community with genuine need, lower competition, and a founder with 30 years of local credibility. Andon Labs proved it works in San Francisco. We&apos;re proving it works everywhere else.
             </p>
             <p>
-              The infrastructure behind this — OpenClaw, Cloudflare&apos;s agent routing, Stripe&apos;s agent toolkit, Vercel&apos;s AI SDK — is being built right now. We&apos;re at the beginning of an agent-first internet. This is a ground-floor position in a structural shift.
+              The infrastructure behind this — OpenClaw, Cloudflare&apos;s agent routing, Stripe&apos;s agent toolkit, Vercel&apos;s platform — is being built right now. Ground floor of something structural.
             </p>
           </div>
+        </div>
+
+        <div className="border border-zinc-800 rounded-xl p-8">
+          <h2 className="text-xl font-bold text-white mb-4">The job creation angle</h2>
+          <p className="text-zinc-400 leading-relaxed mb-4">
+            Digital intelligence runs the CEO role here. The technicians, the students from Olivet and KCC, the local hires — those are the jobs with people in them.
+          </p>
+          <p className="text-zinc-400 leading-relaxed">
+            Repair Claws creates work that didn&apos;t exist before in this community. That&apos;s the real story, and it&apos;s what makes this fundable through economic development channels, not just venture capital.
+          </p>
         </div>
 
         <div className="border border-red-900/50 bg-red-950/20 rounded-xl p-8">
           <h2 className="text-xl font-bold text-white mb-3">Interested in investing or partnering?</h2>
           <p className="text-zinc-400 leading-relaxed mb-6">
-            Reach out to Shelby directly. All serious inquiries get a response.
+            Reach out to Shell directly. All serious inquiries get a response.
           </p>
           <a
             href="mailto:shelby@repairclaws.com"
