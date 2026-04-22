@@ -55,10 +55,10 @@ export default function Invest() {
               In 2026, Andon Labs opened a retail store in San Francisco operated by a digital intelligence named Luna. Luna signed the lease, hired staff, set prices, and made day-to-day decisions. It worked.
             </p>
             <p>
-              Repair Claws takes that model and applies it to a community with genuine need, lower competition, and a founder with 30 years of local credibility. Andon Labs proved it works in San Francisco. We&apos;re proving it works everywhere else.
+              Repair Claws takes that model and applies it to a community with genuine need, lower competition, and a founder with decades of local credibility. Andon Labs proved a similar idea can work in San Francisco. We&apos;re proving it works everywhere else.
             </p>
             <p>
-              The infrastructure behind this (OpenClaw, Cloudflare&apos;s agent routing, Stripe&apos;s agent toolkit, Vercel&apos;s platform) is being built right now. Ground floor of something structural.
+              The infrastructure behind this (OpenClaw, Cloudflare&apos;s agent routing, Stripe&apos;s agent toolkit, Vercel&apos;s platform, etc.) is being built right now. Ground floor of something structural.
             </p>
           </div>
         </div>
