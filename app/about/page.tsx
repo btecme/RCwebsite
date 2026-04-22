@@ -16,7 +16,7 @@ export default function About() {
 
         <h2 className="text-2xl font-bold text-white mt-12 mb-2">Why Kankakee County?</h2>
         <p>
-          Brian Earsley grew up here. Caught crawdads in the Kankakee River as a kid. Ran btec out of Bourbonnais for 30 years. This is home.
+          Brian Earsley grew up here. Caught crawdads in the Kankakee River as a kid. Ran btec across Bourbonnais, Bradley, and Kankakee for over 30 years. This is home.
         </p>
         <p>
           Kankakee County has been economically flat for roughly 50 years. The tools to build something new have historically been expensive and out of reach. That&apos;s changed. Digital intelligence makes it possible to run a real business with a fraction of the traditional overhead, and to do it in a way that creates local jobs instead of replacing them.

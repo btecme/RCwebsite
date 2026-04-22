@@ -13,7 +13,7 @@ export default function Home() {
           Devices. Appliances. Business workflows. Community problems.
         </p>
         <p className="text-zinc-500 text-sm mb-10 max-w-xl">
-          Powered by digital intelligence. Rooted in Kankakee County, Illinois.
+          Powered by digital intelligence. Grown in Kankakee, Illinois.
         </p>
         <div className="flex flex-col sm:flex-row gap-4">
           <Link
