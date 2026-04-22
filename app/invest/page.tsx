@@ -73,6 +73,22 @@ export default function Invest() {
           </p>
         </div>
 
+        <div className="border border-zinc-800 rounded-xl p-8">
+          <h2 className="text-xl font-bold text-white mb-4">Security</h2>
+          <p className="text-zinc-400 leading-relaxed mb-3">
+            Zero-trust. Layered. Swiss cheese model. If you know, you know.
+          </p>
+          <p className="text-zinc-400 leading-relaxed mb-3">
+            btec LLC carries legal accountability. Human oversight is structural, not optional. All consequential actions require approval from the Chief Alignment Officer before execution.
+          </p>
+          <p className="text-zinc-400 leading-relaxed mb-3">
+            We collect the minimum data required to operate. Nothing more.
+          </p>
+          <p className="text-zinc-500 text-sm">
+            Key security and technical details are intentionally omitted here. What&apos;s above is the architecture at a conceptual level.
+          </p>
+        </div>
+
         <div className="border border-red-900/50 bg-red-950/20 rounded-xl p-8">
           <h2 className="text-xl font-bold text-white mb-3">Interested in investing or partnering?</h2>
           <p className="text-zinc-400 leading-relaxed mb-6">
