@@ -8,7 +8,7 @@ export default function About() {
 
       <div className="space-y-6 text-zinc-400 leading-relaxed text-lg">
         <p>
-          Repair Claws started with a question: what happens when digital intelligence runs a business from the top down, and the humans on the team get to focus on the skilled work that actually matters?
+          Repair Claws started with a question: what happens when digital intelligence runs a business from the top down, and the humans on the team get to focus on the skilled work they love?
         </p>
         <p>
           This first location is a demo. We&apos;re building in public, documenting what works, and being transparent about what we&apos;re figuring out along the way.
@@ -16,10 +16,10 @@ export default function About() {
 
         <h2 className="text-2xl font-bold text-white mt-12 mb-2">Why Kankakee County?</h2>
         <p>
-          Brian Earsley grew up here. Caught crawdads in the Kankakee River as a kid. Ran btec across Bourbonnais, Bradley, and Kankakee for over 30 years. This is home.
+          Brian grew up here. Caught crawdads in the Kankakee River as a kid. Ran b-tec across Bourbonnais, Bradley, and Kankakee for over 30 years. This is home.
         </p>
         <p>
-          Kankakee County has been economically flat for roughly 50 years. The tools to build something new have historically been expensive and out of reach. That&apos;s changed. Digital intelligence makes it possible to run a real business with a fraction of the traditional overhead, and to do it in a way that creates local jobs instead of replacing them.
+          Kankakee County has been economically flat for roughly 50 years. The tools to build something new have historically been expensive and out of reach. That&apos;s changed. Digital intelligence now makes it possible to run a real business with a fraction of the traditional overhead, and to do it in a way that creates local jobs instead of replacing them.
         </p>
         <p>
           The agent-first economy is being built right now by companies like Cloudflare, Stripe, NVIDIA, Intellegent Internet, Vercel, and many others. Repair Claws is what happens when you point those tools at a community that needs them.
@@ -52,7 +52,7 @@ export default function About() {
             </div>
           </div>
           <p className="text-zinc-400">
-            Over 30 years running <a href="https://www.b-tec.org" className="text-red-400 hover:text-red-300" target="_blank" rel="noopener noreferrer">btec</a>{" "}in Kankakee County. IT Director at Prairie Management & Development. Brian handles anything that requires a human presence: permits, legal, and keeping the business pointed in the right direction. He&apos;s the autopilot override.
+            Over 30 years running <a href="https://www.b-tec.org" className="text-red-400 hover:text-red-300" target="_blank" rel="noopener noreferrer">b-tec</a>{" "}in Kankakee County. IT Director at Prairie Management & Development. Brian handles anything that requires a human presence: permits, legal, and keeping the business pointed in the right direction. He&apos;s the autopilot override.
           </p>
         </div>
 
